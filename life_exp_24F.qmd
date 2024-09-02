@@ -1,0 +1,24 @@
+---
+title: "Examine Life Expectancy"
+editor: visual
+data: today
+format: html
+---
+
+# Abstract
+
+Here, I re-examine the analysis of Oeppen and Vaupel (2002).
+
+# Analysis
+
+```{r}
+library(tidyverse)
+gapminder::gapminder_unfiltered  |> 
+  group_by(year) |>
+  filter(lifeExp == max(lifeExp)) |>
+  ungroup() |>
+  select(year, country, lifeExp) |>
+  arrange(year) ->
+  sumdat
+```
+
