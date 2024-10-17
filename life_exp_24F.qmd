@@ -9,6 +9,8 @@ format: html
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
+Many people have done this.
+
 # Life Expectancy Analysis
 
 # This code is accessing the gapminder data frame in the gapminder library, finding the maximum life expectacy for each year and the country which had the maximum life expectancy, and saving the year, country and maximum life expectancy into a new data frame.
