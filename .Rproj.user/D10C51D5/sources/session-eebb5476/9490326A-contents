@@ -1,0 +1,26 @@
+---
+title: "classwork-10-17"
+format: html
+---
+
+9.2.1
+
+-more and more solutions are being deployed for continuous use
+- spotify and netflix is working all the time
+- you want to make sure something is always working while you can also make edits
+- dev, test, prod
+- we want to add new capabilities without disturibing main base branch baseline until new version is ready
+
+9.3
+- branching allows each branch to have its own version of code, and supports seperation b/w developing, testing, and production
+
+How do we make sure we're up to data on what's on Github?
+- use git pull
+
+-git branch -a
+ - main is in green as that's what you're in
+ 
+ 
+- its called branch as it will keep main branch working
+
+
